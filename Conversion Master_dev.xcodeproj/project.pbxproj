@@ -13,6 +13,35 @@
 		8D2222C61E213D49001CF9C0 /* Conversion_Master_devTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2222C51E213D49001CF9C0 /* Conversion_Master_devTests.swift */; };
 		8D2222D11E213D49001CF9C0 /* Conversion_Master_devUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2222D01E213D49001CF9C0 /* Conversion_Master_devUITests.swift */; };
 		8D2222E11E21422B001CF9C0 /* UnitSelectCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2222E01E21422B001CF9C0 /* UnitSelectCollectionViewController.swift */; };
+		8D2222E31E214B9D001CF9C0 /* UnitSelectViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2222E21E214B9D001CF9C0 /* UnitSelectViewCell.swift */; };
+		8D2222E51E21D059001CF9C0 /* UnitTypes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D2222E41E21D059001CF9C0 /* UnitTypes.plist */; };
+		8D2222E71E229508001CF9C0 /* ConversionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2222E61E229508001CF9C0 /* ConversionViewController.swift */; };
+		8D2222EE1E22A999001CF9C0 /* ConversionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2222ED1E22A999001CF9C0 /* ConversionViewCell.swift */; };
+		8D2222F31E22BC8E001CF9C0 /* ConverterFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2222F21E22BC8E001CF9C0 /* ConverterFactory.swift */; };
+		8D2222F71E22BCC5001CF9C0 /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2222F61E22BCC5001CF9C0 /* Converter.swift */; };
+		8D2222F91E22BDB1001CF9C0 /* GainConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2222F81E22BDB1001CF9C0 /* GainConverter.swift */; };
+		8D2222FB1E22C4F5001CF9C0 /* GainOffsetConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2222FA1E22C4F5001CF9C0 /* GainOffsetConverter.swift */; };
+		8D2222FD1E22CEC3001CF9C0 /* TemperatureData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D2222FC1E22CEC3001CF9C0 /* TemperatureData.plist */; };
+		8D2222FF1E22DD64001CF9C0 /* AccelerationData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D2222FE1E22DD64001CF9C0 /* AccelerationData.plist */; };
+		8D2223121E22DE9F001CF9C0 /* AreaData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D2223001E22DE9F001CF9C0 /* AreaData.plist */; };
+		8D2223131E22DE9F001CF9C0 /* ConcentrationData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D2223011E22DE9F001CF9C0 /* ConcentrationData.plist */; };
+		8D2223141E22DE9F001CF9C0 /* DensityData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D2223021E22DE9F001CF9C0 /* DensityData.plist */; };
+		8D2223151E22DE9F001CF9C0 /* EnergyData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D2223031E22DE9F001CF9C0 /* EnergyData.plist */; };
+		8D2223161E22DE9F001CF9C0 /* FlowData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D2223041E22DE9F001CF9C0 /* FlowData.plist */; };
+		8D2223171E22DE9F001CF9C0 /* ForceData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D2223051E22DE9F001CF9C0 /* ForceData.plist */; };
+		8D2223181E22DE9F001CF9C0 /* LengthData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D2223061E22DE9F001CF9C0 /* LengthData.plist */; };
+		8D2223191E22DE9F001CF9C0 /* LightData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D2223071E22DE9F001CF9C0 /* LightData.plist */; };
+		8D22231A1E22DE9F001CF9C0 /* MassData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D2223081E22DE9F001CF9C0 /* MassData.plist */; };
+		8D22231B1E22DE9F001CF9C0 /* MemoryData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D2223091E22DE9F001CF9C0 /* MemoryData.plist */; };
+		8D22231C1E22DE9F001CF9C0 /* PowerData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D22230A1E22DE9F001CF9C0 /* PowerData.plist */; };
+		8D22231D1E22DE9F001CF9C0 /* PressureData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D22230B1E22DE9F001CF9C0 /* PressureData.plist */; };
+		8D22231E1E22DE9F001CF9C0 /* SpeedData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D22230C1E22DE9F001CF9C0 /* SpeedData.plist */; };
+		8D22231F1E22DE9F001CF9C0 /* ThermalConductivityData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D22230D1E22DE9F001CF9C0 /* ThermalConductivityData.plist */; };
+		8D2223201E22DE9F001CF9C0 /* TimeData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D22230E1E22DE9F001CF9C0 /* TimeData.plist */; };
+		8D2223211E22DE9F001CF9C0 /* TorqueData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D22230F1E22DE9F001CF9C0 /* TorqueData.plist */; };
+		8D2223221E22DE9F001CF9C0 /* Volume-DryData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D2223101E22DE9F001CF9C0 /* Volume-DryData.plist */; };
+		8D2223231E22DE9F001CF9C0 /* VolumeData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D2223111E22DE9F001CF9C0 /* VolumeData.plist */; };
+		8D2223251E22DF04001CF9C0 /* AngleData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D2223241E22DF04001CF9C0 /* AngleData.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +74,35 @@
 		8D2222D01E213D49001CF9C0 /* Conversion_Master_devUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conversion_Master_devUITests.swift; sourceTree = "<group>"; };
 		8D2222D21E213D49001CF9C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D2222E01E21422B001CF9C0 /* UnitSelectCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UnitSelectCollectionViewController.swift; path = Controllers/UnitSelectCollectionViewController.swift; sourceTree = "<group>"; };
+		8D2222E21E214B9D001CF9C0 /* UnitSelectViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UnitSelectViewCell.swift; path = Views/UnitSelectViewCell.swift; sourceTree = "<group>"; };
+		8D2222E41E21D059001CF9C0 /* UnitTypes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = UnitTypes.plist; path = Resources/UnitTypes.plist; sourceTree = "<group>"; };
+		8D2222E61E229508001CF9C0 /* ConversionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConversionViewController.swift; path = Controllers/ConversionViewController.swift; sourceTree = "<group>"; };
+		8D2222ED1E22A999001CF9C0 /* ConversionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConversionViewCell.swift; path = Views/ConversionViewCell.swift; sourceTree = "<group>"; };
+		8D2222F21E22BC8E001CF9C0 /* ConverterFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConverterFactory.swift; path = Classes/ConverterFactory.swift; sourceTree = "<group>"; };
+		8D2222F61E22BCC5001CF9C0 /* Converter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Converter.swift; path = Classes/Converter.swift; sourceTree = "<group>"; };
+		8D2222F81E22BDB1001CF9C0 /* GainConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GainConverter.swift; path = Classes/GainConverter.swift; sourceTree = "<group>"; };
+		8D2222FA1E22C4F5001CF9C0 /* GainOffsetConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GainOffsetConverter.swift; path = Classes/GainOffsetConverter.swift; sourceTree = "<group>"; };
+		8D2222FC1E22CEC3001CF9C0 /* TemperatureData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = TemperatureData.plist; path = Resources/TemperatureData.plist; sourceTree = "<group>"; };
+		8D2222FE1E22DD64001CF9C0 /* AccelerationData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AccelerationData.plist; path = Resources/AccelerationData.plist; sourceTree = "<group>"; };
+		8D2223001E22DE9F001CF9C0 /* AreaData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AreaData.plist; path = Resources/AreaData.plist; sourceTree = "<group>"; };
+		8D2223011E22DE9F001CF9C0 /* ConcentrationData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = ConcentrationData.plist; path = Resources/ConcentrationData.plist; sourceTree = "<group>"; };
+		8D2223021E22DE9F001CF9C0 /* DensityData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = DensityData.plist; path = Resources/DensityData.plist; sourceTree = "<group>"; };
+		8D2223031E22DE9F001CF9C0 /* EnergyData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = EnergyData.plist; path = Resources/EnergyData.plist; sourceTree = "<group>"; };
+		8D2223041E22DE9F001CF9C0 /* FlowData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = FlowData.plist; path = Resources/FlowData.plist; sourceTree = "<group>"; };
+		8D2223051E22DE9F001CF9C0 /* ForceData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = ForceData.plist; path = Resources/ForceData.plist; sourceTree = "<group>"; };
+		8D2223061E22DE9F001CF9C0 /* LengthData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = LengthData.plist; path = Resources/LengthData.plist; sourceTree = "<group>"; };
+		8D2223071E22DE9F001CF9C0 /* LightData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = LightData.plist; path = Resources/LightData.plist; sourceTree = "<group>"; };
+		8D2223081E22DE9F001CF9C0 /* MassData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = MassData.plist; path = Resources/MassData.plist; sourceTree = "<group>"; };
+		8D2223091E22DE9F001CF9C0 /* MemoryData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = MemoryData.plist; path = Resources/MemoryData.plist; sourceTree = "<group>"; };
+		8D22230A1E22DE9F001CF9C0 /* PowerData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PowerData.plist; path = Resources/PowerData.plist; sourceTree = "<group>"; };
+		8D22230B1E22DE9F001CF9C0 /* PressureData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PressureData.plist; path = Resources/PressureData.plist; sourceTree = "<group>"; };
+		8D22230C1E22DE9F001CF9C0 /* SpeedData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = SpeedData.plist; path = Resources/SpeedData.plist; sourceTree = "<group>"; };
+		8D22230D1E22DE9F001CF9C0 /* ThermalConductivityData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = ThermalConductivityData.plist; path = Resources/ThermalConductivityData.plist; sourceTree = "<group>"; };
+		8D22230E1E22DE9F001CF9C0 /* TimeData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = TimeData.plist; path = Resources/TimeData.plist; sourceTree = "<group>"; };
+		8D22230F1E22DE9F001CF9C0 /* TorqueData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = TorqueData.plist; path = Resources/TorqueData.plist; sourceTree = "<group>"; };
+		8D2223101E22DE9F001CF9C0 /* Volume-DryData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Volume-DryData.plist"; path = "Resources/Volume-DryData.plist"; sourceTree = "<group>"; };
+		8D2223111E22DE9F001CF9C0 /* VolumeData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = VolumeData.plist; path = Resources/VolumeData.plist; sourceTree = "<group>"; };
+		8D2223241E22DF04001CF9C0 /* AngleData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AngleData.plist; path = Resources/AngleData.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +157,10 @@
 				8D2222B41E213D49001CF9C0 /* Main.storyboard */,
 				8D2222B71E213D49001CF9C0 /* Assets.xcassets */,
 				8D2222BC1E213D49001CF9C0 /* Info.plist */,
-				8D2222E01E21422B001CF9C0 /* UnitSelectCollectionViewController.swift */,
+				8D2222EF1E22B499001CF9C0 /* Classes/Protocols */,
+				8D2222EB1E22A437001CF9C0 /* Controllers */,
+				8D2222EC1E22A44C001CF9C0 /* Views */,
+				8D2222E81E22A385001CF9C0 /* Resources */,
 			);
 			path = "Conversion Master_dev";
 			sourceTree = "<group>";
@@ -120,6 +181,64 @@
 				8D2222D21E213D49001CF9C0 /* Info.plist */,
 			);
 			path = "Conversion Master_devUITests";
+			sourceTree = "<group>";
+		};
+		8D2222E81E22A385001CF9C0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D2223241E22DF04001CF9C0 /* AngleData.plist */,
+				8D2222FE1E22DD64001CF9C0 /* AccelerationData.plist */,
+				8D2223001E22DE9F001CF9C0 /* AreaData.plist */,
+				8D2223011E22DE9F001CF9C0 /* ConcentrationData.plist */,
+				8D2223021E22DE9F001CF9C0 /* DensityData.plist */,
+				8D2223031E22DE9F001CF9C0 /* EnergyData.plist */,
+				8D2223041E22DE9F001CF9C0 /* FlowData.plist */,
+				8D2223051E22DE9F001CF9C0 /* ForceData.plist */,
+				8D2223061E22DE9F001CF9C0 /* LengthData.plist */,
+				8D2223071E22DE9F001CF9C0 /* LightData.plist */,
+				8D2223081E22DE9F001CF9C0 /* MassData.plist */,
+				8D2223091E22DE9F001CF9C0 /* MemoryData.plist */,
+				8D22230A1E22DE9F001CF9C0 /* PowerData.plist */,
+				8D22230B1E22DE9F001CF9C0 /* PressureData.plist */,
+				8D22230C1E22DE9F001CF9C0 /* SpeedData.plist */,
+				8D2222FC1E22CEC3001CF9C0 /* TemperatureData.plist */,
+				8D22230D1E22DE9F001CF9C0 /* ThermalConductivityData.plist */,
+				8D22230E1E22DE9F001CF9C0 /* TimeData.plist */,
+				8D22230F1E22DE9F001CF9C0 /* TorqueData.plist */,
+				8D2222E41E21D059001CF9C0 /* UnitTypes.plist */,
+				8D2223101E22DE9F001CF9C0 /* Volume-DryData.plist */,
+				8D2223111E22DE9F001CF9C0 /* VolumeData.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8D2222EB1E22A437001CF9C0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8D2222E61E229508001CF9C0 /* ConversionViewController.swift */,
+				8D2222E01E21422B001CF9C0 /* UnitSelectCollectionViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		8D2222EC1E22A44C001CF9C0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8D2222E21E214B9D001CF9C0 /* UnitSelectViewCell.swift */,
+				8D2222ED1E22A999001CF9C0 /* ConversionViewCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		8D2222EF1E22B499001CF9C0 /* Classes/Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				8D2222F61E22BCC5001CF9C0 /* Converter.swift */,
+				8D2222F21E22BC8E001CF9C0 /* ConverterFactory.swift */,
+				8D2222F81E22BDB1001CF9C0 /* GainConverter.swift */,
+				8D2222FA1E22C4F5001CF9C0 /* GainOffsetConverter.swift */,
+			);
+			name = Classes/Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +351,30 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D2223221E22DE9F001CF9C0 /* Volume-DryData.plist in Resources */,
+				8D2223141E22DE9F001CF9C0 /* DensityData.plist in Resources */,
+				8D2223121E22DE9F001CF9C0 /* AreaData.plist in Resources */,
+				8D2222FF1E22DD64001CF9C0 /* AccelerationData.plist in Resources */,
+				8D22231D1E22DE9F001CF9C0 /* PressureData.plist in Resources */,
+				8D2223211E22DE9F001CF9C0 /* TorqueData.plist in Resources */,
+				8D2223131E22DE9F001CF9C0 /* ConcentrationData.plist in Resources */,
+				8D22231E1E22DE9F001CF9C0 /* SpeedData.plist in Resources */,
 				8D2222B81E213D49001CF9C0 /* Assets.xcassets in Resources */,
+				8D22231C1E22DE9F001CF9C0 /* PowerData.plist in Resources */,
+				8D2223251E22DF04001CF9C0 /* AngleData.plist in Resources */,
+				8D2223181E22DE9F001CF9C0 /* LengthData.plist in Resources */,
 				8D2222B61E213D49001CF9C0 /* Main.storyboard in Resources */,
+				8D2223231E22DE9F001CF9C0 /* VolumeData.plist in Resources */,
+				8D2223171E22DE9F001CF9C0 /* ForceData.plist in Resources */,
+				8D2223161E22DE9F001CF9C0 /* FlowData.plist in Resources */,
+				8D2222E51E21D059001CF9C0 /* UnitTypes.plist in Resources */,
+				8D2223151E22DE9F001CF9C0 /* EnergyData.plist in Resources */,
+				8D22231A1E22DE9F001CF9C0 /* MassData.plist in Resources */,
+				8D22231B1E22DE9F001CF9C0 /* MemoryData.plist in Resources */,
+				8D2222FD1E22CEC3001CF9C0 /* TemperatureData.plist in Resources */,
+				8D2223201E22DE9F001CF9C0 /* TimeData.plist in Resources */,
+				8D2223191E22DE9F001CF9C0 /* LightData.plist in Resources */,
+				8D22231F1E22DE9F001CF9C0 /* ThermalConductivityData.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,8 +399,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D2222F31E22BC8E001CF9C0 /* ConverterFactory.swift in Sources */,
 				8D2222E11E21422B001CF9C0 /* UnitSelectCollectionViewController.swift in Sources */,
+				8D2222E31E214B9D001CF9C0 /* UnitSelectViewCell.swift in Sources */,
+				8D2222F71E22BCC5001CF9C0 /* Converter.swift in Sources */,
+				8D2222E71E229508001CF9C0 /* ConversionViewController.swift in Sources */,
+				8D2222F91E22BDB1001CF9C0 /* GainConverter.swift in Sources */,
+				8D2222FB1E22C4F5001CF9C0 /* GainOffsetConverter.swift in Sources */,
 				8D2222B11E213D49001CF9C0 /* AppDelegate.swift in Sources */,
+				8D2222EE1E22A999001CF9C0 /* ConversionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -502,6 +650,7 @@
 				8D2222D71E213D49001CF9C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8D2222D81E213D49001CF9C0 /* Build configuration list for PBXNativeTarget "Conversion Master_devTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +659,7 @@
 				8D2222DA1E213D49001CF9C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8D2222DB1E213D49001CF9C0 /* Build configuration list for PBXNativeTarget "Conversion Master_devUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +668,7 @@
 				8D2222DD1E213D49001CF9C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+ AngleData.plist
+ Conversion Master_dev
+ 
+ Created by Seth Cohen on 1/8/17.
+ Copyright (c) 2017 Seth Cohen. All rights reserved.
+ -->
+<plist version="1.0">
+  <dict>
+    <key>converter</key>
+    <string>gain</string>
+    <key>basis</key>
+    <string>degree</string>
+    <key>map</key>
+    <dict>
+      <key>degree</key>
+      <real>1</real>
+      <key>grad</key>
+      <real>1.111111</real>
+      <key>minute</key>
+      <real>60</real>
+      <key>radian</key>
+      <real>0.01745329</real>
+      <key>revolution</key>
+      <real>0.0027777700000000002</real>
+      <key>right angle</key>
+      <real>0.0027777700000000002</real>
+      <key>second</key>
+      <real>3600</real>
+    </dict>
+  </dict>
+</plist>
