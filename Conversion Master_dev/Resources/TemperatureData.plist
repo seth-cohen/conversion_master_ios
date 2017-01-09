@@ -10,7 +10,7 @@
 <plist version="1.0">
   <dict>
     <key>converter</key>
-    <string>gainOffset</key>
+    <string>gainOffset</string>
     <key>basis</key>
     <string>Celsius</string>
     <key>map</key>

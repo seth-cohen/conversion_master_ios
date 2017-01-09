@@ -15,12 +15,15 @@ class ConversionViewCell: UITableViewCell {
   override func awakeFromNib() {
     super.awakeFromNib()
     // Initialization code
+    
+    // Configure the view for the selected state
+    let view: UIView = UIView()
+    view.backgroundColor = UIColor.yellow
+    self.selectedBackgroundView = view
   }
   
   override func setSelected(_ selected: Bool, animated: Bool) {
     super.setSelected(selected, animated: animated)
-    
-    // Configure the view for the selected state
   }
   
 }

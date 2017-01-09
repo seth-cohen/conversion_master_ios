@@ -10,7 +10,10 @@ import UIKit
 
 fileprivate let reuseIdentifier = "UnitTypeCell"
 
-class UnitSelectCollectionViewController: UICollectionViewController, UICollectionViewDelegateFlowLayout {
+class UnitSelectCollectionViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource,  UICollectionViewDelegateFlowLayout {
+  
+  @IBOutlet weak var collectionView: UICollectionView!
+  
   fileprivate let itemMargin: CGFloat = 10.0
   fileprivate var unitTypes: [String] = [String]()
   
@@ -54,16 +57,16 @@ class UnitSelectCollectionViewController: UICollectionViewController, UICollecti
   
   // MARK: UICollectionViewDataSource
   
-  override func numberOfSections(in collectionView: UICollectionView) -> Int {
+  func numberOfSections(in collectionView: UICollectionView) -> Int {
     return 1
   }
   
   
-  override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+  func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
     return unitTypes.count
   }
   
-  override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+  func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
     let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath) as! UnitSelectViewCell
     
     // Configure the cell
@@ -73,12 +76,12 @@ class UnitSelectCollectionViewController: UICollectionViewController, UICollecti
   }
   
   // MARK: UICollectionViewDelegate
-  override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+  func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
     let cell = collectionView.cellForItem(at: indexPath)
     cell?.layer.borderColor = UIColor.red.cgColor
   }
   
-  override func collectionView(_ collectionView: UICollectionView, didDeselectItemAt indexPath: IndexPath) {
+  func collectionView(_ collectionView: UICollectionView, didDeselectItemAt indexPath: IndexPath) {
     let cell = collectionView.cellForItem(at: indexPath)
     cell?.layer.borderColor = UIColor.black.cgColor
   }
